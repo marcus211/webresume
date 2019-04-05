@@ -5,16 +5,13 @@ class SectionList extends React.Component {
   render() {
     return (
       <div className="section_gray">
+        <div className="chapterName">工作經歷</div>
         <div className="container">
-          <div>工作經歷</div>
           <div className="row">
-            <div className="col-sm-4">
+            <div className="col-sm-6">
               <BlockRectangle />
             </div>
-            <div className="col-sm-4">
-              <BlockRectangle />
-            </div>
-            <div className="col-sm-4">
+            <div className="col-sm-6">
               <BlockRectangle />
             </div>
           </div>

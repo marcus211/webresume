@@ -5,8 +5,8 @@ class SectionOther extends React.Component {
   render() {
     return (
       <div className="section_gray">
+        <div className="chapterName">其他</div>
         <div className="container">
-          <div>其他</div>
           <div className="row">
             <div className="col-sm-6">
               <BlockSquare />

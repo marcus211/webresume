@@ -5,8 +5,8 @@ class SectionMainWork extends React.Component {
   render() {
     return (
       <div className="section_white">
+        <div className="chapterName">主要工作</div>
         <div className="container">
-          <div>主要工作</div>
           <div className="row">
             <div className="col-sm-12">
               <BlockSquare />
