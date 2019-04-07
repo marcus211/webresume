@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import BlockNavbar from "./components/navbar";
 import SectionIntroduction from "./components/sectionIntroduction";
 import SectionList from "./components/sectionlist";
 import SectionMainWork from "./components/sectionmainwork";
@@ -11,7 +12,8 @@ class AppActive extends Component {
     return (
       <div className="main">
         <header>
-          <div className="div_gray_black">
+          <BlockNavbar />
+          <div id="HomePage"className="div_gray_black">
             <img src={logo} className="App-logo" alt="logo" />
             <p>Edit <code>src/App.js</code> and save to reload.</p>
             <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" > Learn React  </a>

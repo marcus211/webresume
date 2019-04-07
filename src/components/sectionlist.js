@@ -4,7 +4,7 @@ import BlockRectangle from "./blockA";
 class SectionList extends React.Component {
   render() {
     return (
-      <div className="section_gray">
+      <div id="worklist" className="section_gray">
         <div className="chapterName">工作經歷</div>
         <div className="container">
           <div className="row">

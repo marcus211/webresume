@@ -4,7 +4,7 @@ import BlockSquare from "./blockB";
 class SectionOther extends React.Component {
   render() {
     return (
-      <div className="section_gray">
+      <div id="other" className="section_gray">
         <div className="chapterName">其他</div>
         <div className="container">
           <div className="row">
