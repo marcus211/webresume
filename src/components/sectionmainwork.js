@@ -1,4 +1,5 @@
 import React from 'react';
+import BarChart from '../components/test';
 
 class SectionMainWork extends React.Component {
   render() {
@@ -11,7 +12,7 @@ class SectionMainWork extends React.Component {
 
             </div>
             <div className="col-sm-8">
-            
+              <BarChart />
             </div>
           </div>
         </div>
