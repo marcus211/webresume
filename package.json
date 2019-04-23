@@ -8,9 +8,13 @@
     "d3-latest": "^5.0.4",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.6",
+    "react-d3-components": "^0.9.1",
+    "react-d3-library": "^1.1.8",
     "react-dom": "^16.8.6",
+    "react-faux-dom": "^4.5.0",
     "react-scripts": "2.1.8",
-    "react-scroll": "^1.7.11"
+    "react-scroll": "^1.7.11",
+    "react-use-dimensions": "^1.1.3"
   },
   "scripts": {
     "start": "react-scripts start",

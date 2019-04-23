@@ -1,5 +1,6 @@
 import React from 'react';
 import BlockSquare from "./blockB";
+import BarChartContainer from "./barchart";
 
 class SectionOther extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class SectionOther extends React.Component {
               <BlockSquare />
             </div>
             <div className="col-sm-6">
-              <BlockSquare />
+              <BarChartContainer />
             </div>
           </div>
         </div>

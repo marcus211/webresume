@@ -1,11 +1,11 @@
 import React from 'react';
-import * as d3 from "d3";
 
 function BarGroup(props) {
-  let barPadding = 2
-  let barColor = 'rgb(192, 192, 192, 0.5)'
+  let barColor = 'rgb(50, 50, 50, 0.5)'
   let barBaseColor = 'rgb(192, 192, 192,0.5)'
-  let widthScale = d => d*3
+
+
+  let widthScale = d => (d*3)
 
   let width = widthScale(props.d.value)
   let barwidth = 300
@@ -13,16 +13,16 @@ function BarGroup(props) {
   let yMid = props.barHeight * 0.6
   
   return <g className="bar-group">
-    <text className="name-label" x="-100" y={yMid} alignmentBaseline="middle" >{props.d.name}</text>
+    <text className="name-label" x="-90" y={yMid} alignmentBaseline="middle" >{props.d.name}</text>
     <text className="value-label" x={width} y={yMid} lignmentBaseline="middle" >{props.d.value}</text>    
       <rect
       width={barwidth}
-      height={props.barHeight - barPadding}
+      height={props.barHeight}
       fill={barBaseColor}
       />
       <rect
       width={width}
-      height={props.barHeight - barPadding}
+      height={props.barHeight}
       fill={barColor}
       />
   </g>

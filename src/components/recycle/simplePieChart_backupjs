@@ -1,0 +1,65 @@
+import * as React from "react";
+import * as d3 from "d3";
+//https://medium.com/codenoobs/simple-d3-pie-chart-in-react-eb4237999553
+//https://codesandbox.io/s/p311wv6z9m
+let data = [
+  { label: 'HTML5', number: 60 },
+  { label: 'CSS', number: 60 },
+  { label: 'Javascript', number: 50 },
+  { label: 'jQuery', number: 50 },
+  { label: 'Python', number: 40 },
+  { label: 'Firebase', number: 40 },
+  { label: 'ReactJS', number: 30 },
+  { label: 'QGIS', number: 85 }
+];
+
+let piedata = [];
+let labeldata = [];
+
+for (let {label,number} of data) {
+  labeldata.push(label)
+  piedata.push(number)
+}
+
+const height = 400,
+      width = 400,
+      pieradius = Math.min(width, height) / 2;
+
+export const SimplePieChart = () => {
+
+
+  let pie = d3.pie()(piedata);
+
+  return (
+    <svg height={height} width={width}>
+      <g transform={`translate(200,200),scale(1)`}>
+        <Slice pie={pie}/>
+      </g>
+    </svg>
+  );
+};
+
+const Slice = props => {
+  let { pie } = props;
+
+  let arc = d3.arc()
+              .innerRadius(pieradius/2)
+              .outerRadius(pieradius);
+  let labelarc =  d3.arc()
+                    .innerRadius(pieradius/2)
+                    .outerRadius(pieradius);
+
+  let interpolate = d3.interpolateRgb("#eaaf79", "#bc3358");
+
+  return pie.map((slice, index) => {
+    let sliceColor = interpolate(index / (pie.length - 1));
+
+    return <g>
+      <path d={arc(slice)} fill={sliceColor} />
+      <text transform={`translate(${arc.centroid(labelarc)})`} dy=".35em">
+        {labeldata}
+      </text>
+    </g>
+    ;
+  });
+};
