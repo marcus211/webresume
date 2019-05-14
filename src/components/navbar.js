@@ -69,7 +69,7 @@ class BlockNavbar extends React.Component {
                 offset={-80}
                 duration={300}
               >
-                主要工作
+                個人專長
               </Link>
               <Link
                 className="nav-item nav-link ml-auto" 
@@ -80,7 +80,7 @@ class BlockNavbar extends React.Component {
                 offset={-80}
                 duration={300}
               >
-                其他
+                作品集
               </Link>
             </div>
           </div>

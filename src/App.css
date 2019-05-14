@@ -14,12 +14,41 @@
 
 /*content css*/
 .chapterName {
-  background-color: #d5ffc4;
+  /*background-color: #56ff13;*/
   width: 100%;
   height: 120px;
   line-height:120px;  
   font-size: 1.2em;
   font-weight: 1000;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-align: center;
+}
+.chapterPage {
+  /*background-color: #56ff13;*/
+  width: 100%;
+  height: 120px;
+  line-height:120px;
+  color: silver;
+  text-shadow: 0.1em -0.1em rgb(102, 102, 102);
+  font-size: 1.2em;
+  font-weight: 1000;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-align: center;
+}
+.chapterFooter {
+  /*background-color: #56ff13;*/
+  width: 100%;
+  height: 120px;
+  line-height:120px;
+  color: silver; 
+  font-size: 1.2em;
+  font-weight: 1000;
+  font-family: 'Noto Sans TC', sans-serif;
+  text-align: center;
+}
+.footercontent {
+  color: silver; 
+  font-size: 0.8em;
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;
 }
@@ -42,7 +71,7 @@
 .div_gray_black {
   background: url("./img/background01.jpg") center;
   background-color: #0000ff;
-  filter: brightness(0.5);
+  /*filter: brightness(0.5);*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -54,16 +83,18 @@
 .section_white {
   width:100%;
   height: 100%;
+  display: block;
   background-color: white;
 } 
 .section_gray {
   width:100%;
   height: 100%;
+  display: block;
   background-color: gray;
 } 
-.div_darkblue {
-  height: 400px;
-  background-color: darkblue;
+.footersetup {
+  height: 100%;
+  background-color: #00142e;
   align-items: center;
   justify-content: center;
 }
@@ -108,6 +139,76 @@
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
+/*fade effect*/
+.fade {
+  animation: fadein 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/*icon setup*/
+.iconset{
+  padding:15px 15px 15px 15px;
+  transition: 0.5s;
+  transform: scale(1);
+  color: #8d8d8d;
+}
+.iconset:hover{
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+/*timeline setup*/
+/*https://bootsnipp.com/snippets/xrKXW*/
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: repeating-linear-gradient(90deg,#686868, #ffffff, #686868);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  position: absolute;
+  left: 6px;
+  width: 12px;
+  height: 100%;
+  z-index: 50;
+}
+ul.timeline > li {
+  text-align: left;
+  margin: 20px 20px 20px 20px;
+  padding:10px 10px 10px 10px;
+  background: linear-gradient(315deg, #6eff61, #ffffff);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: linear-gradient(135deg, #abc3fa, #002fff);
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  z-index: 100;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+}
+ul.timeline > div{
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul.timeline > li > ol{
+  list-style-type: square;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
 /*block css*/
 .block_rectangle {
   width:200px;
@@ -116,8 +217,8 @@
   background-color: rgb(0, 255, 0);
 }
 .block_square {
-  width:100px;
-  height:100px;
+  width:200px;
+  height:200px;
   margin: 20px 20px 20px 20px;
   background-color: rgb(255, 0, 0);
 }

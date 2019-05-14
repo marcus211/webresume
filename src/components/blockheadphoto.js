@@ -10,11 +10,10 @@ class BlockHeadPhoto extends React.Component {
         </div>
         <div className="headphotomessage">
           <text>
-            name<br/>
-            xxx@gmail.com<br/>
+            marcus, huang<br/>
+            saiboy211@gmail.com<br/>
             09xx-XXXXXX<br/>
-            city, country<br/>
-            other
+            taipei, taiwan<br/>
           </text>
         </div>
       </div>
