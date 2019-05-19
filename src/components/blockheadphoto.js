@@ -10,7 +10,7 @@ class BlockHeadPhoto extends React.Component {
         </div>
         <div className="headphotomessage">
           <text>
-            marcus, huang<br/>
+            marcus huang<br/>
             saiboy211@gmail.com<br/>
             09xx-XXXXXX<br/>
             taipei, taiwan<br/>

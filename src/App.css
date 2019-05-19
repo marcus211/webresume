@@ -67,10 +67,30 @@
   text-align: center;
 }
 
+/*background image scroll effect*/
+/*http://www.shejidaren.com/css-fixed-scroll-background.html*/
+.background_setup {
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-img-01 {
+  background-image: url("./img/background01.jpg");
+ }
+.bg-img-02 {
+  background-image: url("./img/background02.jpg");
+}
+.bg-img-03 {
+  background-image: url("./img/background03.jpg");
+}
+.bg-img-04 {
+  background-image: url("./img/background04.jpg");
+}
+
 /*div css*/
 .div_gray_black {
-  background: url("./img/background01.jpg") center;
-  background-color: #0000ff;
   /*filter: brightness(0.5);*/
   min-height: 100vh;
   display: flex;
@@ -84,13 +104,13 @@
   width:100%;
   height: 100%;
   display: block;
-  background-color: white;
+  /*background-image: linear-gradient(180deg, #a1a1a1 5%, #ffffff, #a1a1a1 95%);*/
+  background-color: #757575;
 } 
 .section_gray {
   width:100%;
   height: 100%;
   display: block;
-  background-color: gray;
 } 
 .footersetup {
   height: 100%;
@@ -160,7 +180,6 @@
   color: #ffffff;
   transform: scale(1.2);
 }
-
 /*timeline setup*/
 /*https://bootsnipp.com/snippets/xrKXW*/
 ul.timeline {
@@ -207,6 +226,43 @@ ul.timeline > div{
 ul.timeline > li > ol{
   list-style-type: square;
   font-family: 'Noto Sans TC', sans-serif;
+}
+
+/*boxflex system*/
+.box {
+	display: inline-flex;
+  padding: 5vw 5h;
+  flex-wrap:wrap;
+  width:100%;
+  height: 100%;
+  /*border-color:white;
+  border-width:1px;
+  border-style:solid;*/
+  /*background-color: gray;*/
+	justify-content: center;
+	position: relative;
+}
+.boxstyle {
+  flex: 1 1 1;
+  width: 300px;
+	height: 200px;
+  margin: 30px 30px 30px 30px;
+  text-align: center;
+  line-height: 150px;
+  border-radius: 10px 10px 10px 10px;
+  border-color:blue;
+  border-width:1px;
+  border-style:solid;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  transition: all 500ms;
+}
+.boxstyle:hover {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+  transition: scale(1.1);
+  transform: scale(1.1); 
+}
+.boxstyle img{
+  overflow: hidden;	
 }
 
 /*block css*/

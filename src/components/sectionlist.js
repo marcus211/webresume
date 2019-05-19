@@ -4,7 +4,7 @@ import PieChart from "../components/PieChart/PieChart";
 class SectionList extends React.Component {
   render() {
     return (
-      <div id="worklist" className="section_gray">
+      <div id="worklist" className="section_gray  background_setup bg-img-02">
         <div className="chapterName">工作經歷</div>
         <div className="container  text-center">
           <div className="row">
