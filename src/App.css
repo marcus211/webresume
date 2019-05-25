@@ -14,7 +14,8 @@
 
 /*content css*/
 .chapterName {
-  /*background-color: #56ff13;*/
+  color: white;
+  background-color: #56ff1300;
   width: 100%;
   height: 120px;
   line-height:120px;  
@@ -53,11 +54,13 @@
   text-align: center;
 }
 .content {
+  color: white;
   margin:0 auto;
   width:90%;
 }
 .title {
-  background-color: #5dc4ff;
+  color: white;
+  background-color: #5dc4ff00;
   width: 100%;
   height: 40px;
   line-height:40px; 
@@ -65,6 +68,30 @@
   font-weight: 500;
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;
+}
+
+/*uparrow*/
+.uparrow {
+  color:#8d8d8d;
+  border-radius: 50%;
+  position: fixed;
+  font-size: 2.5em;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2000;
+  transition: all 200ms;
+}
+.uparrow.arrowmove {
+  right: -20px;
+}
+.uparrow:hover {
+  color: #ffffff;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+  transition: scale(1.1);
+  transform: scale(1.1); 
+}
+.uparrow:active {
+  color: #fbff00;
 }
 
 /*background image scroll effect*/
@@ -120,8 +147,9 @@
 }
 
 /*components*/
-.test01 {
-  background-color: rgb(58, 248, 255);
+.section_padding {
+  /*background-color: rgb(58, 248, 255);*/
+  padding:40px 40px 40px 40px;
 }
 .test02 {
   background-color: rgb(0, 148, 25);
@@ -135,6 +163,7 @@
   height: 1.5em;
   border-radius: 50%;
 }
+
 /*headphoto area*/
 .headphoto {
   height: 100%;
@@ -144,6 +173,7 @@
   text-align: center;
 }
 .headphotomessage {
+  color: white;
   text-align: center;
   padding: 5px 5px 5px 5px;
 }
@@ -180,6 +210,7 @@
   color: #ffffff;
   transform: scale(1.2);
 }
+
 /*timeline setup*/
 /*https://bootsnipp.com/snippets/xrKXW*/
 ul.timeline {

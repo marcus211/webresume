@@ -1,5 +1,7 @@
 import React from 'react';
 import headimage from '../img/headphoto.jpg';
+import { IoMdPerson, IoMdMail, IoIosPhonePortrait, IoIosFlag } from "react-icons/io";
+/*https://react-icons.netlify.com/*/
 
 class BlockHeadPhoto extends React.Component {
   render() {
@@ -10,10 +12,10 @@ class BlockHeadPhoto extends React.Component {
         </div>
         <div className="headphotomessage">
           <text>
-            marcus huang<br/>
-            saiboy211@gmail.com<br/>
-            09xx-XXXXXX<br/>
-            taipei, taiwan<br/>
+            <i><IoMdPerson /> marcus huang<br/></i>
+            <i><IoMdMail /> saiboy211@gmail.com<br/></i>
+            <i><IoIosPhonePortrait /> 0919-243188<br/></i>
+            <i><IoIosFlag /> taipei, taiwan</i>
           </text>
         </div>
       </div>

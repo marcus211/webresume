@@ -8,11 +8,11 @@ class SectionIntroduction extends React.Component {
       <div id="Introduction" className="section_white">
         <div className="chapterName">自我介紹</div>
         <div className="container">
-          <div className="row">
-            <div className="col-sm-4 test01">
+          <div className="row section_padding">
+            <div className="col-sm-4">
               <BlockHeadPhoto />
             </div>
-            <div className="col-sm-8 test02">
+            <div className="col-sm-8">
               <BlockMessage />
             </div>
           </div>

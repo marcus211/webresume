@@ -8,6 +8,7 @@ import SectionList from "./components/sectionlist";
 import SectionMainWork from "./components/sectionmainwork";
 import SectionOther from "./components/sectionother";
 import SectionFooter from "./components/sectionfooter";
+import ScrollTop from "./components/ScrollTop/scrolltop";
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,9 +18,11 @@ class AppActive extends Component {
       size: '3em',
       className: 'iconset'
     }
+
     return (
       <div className="main">
         <header>
+          <ScrollTop />
           <BlockNavbar />
           <div id="HomePage"className="div_gray_black  background_setup bg-img-01">
             <img src={logo} className="App-logo" alt="logo" />
@@ -48,7 +51,6 @@ class AppActive extends Component {
                 </a>
               </IconContext.Provider>
             </div>
-
           </div>
         </header>
         <body>
