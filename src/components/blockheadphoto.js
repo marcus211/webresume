@@ -11,13 +11,12 @@ class BlockHeadPhoto extends React.Component {
           <img src={headimage} className="roundedimage" alt="headphoto"></img>
         </div>
         <div className="headphotomessage">
-          <text>
-            <i><IoMdPerson /> marcus huang<br/></i>
-            <i><IoMdMail /> saiboy211@gmail.com<br/></i>
-            <i><IoIosPhonePortrait /> 0919-243188<br/></i>
-            <i><IoIosFlag /> taipei, taiwan</i>
-          </text>
+          <i><IoMdPerson /> marcus huang<br/></i>
+          <i><IoMdMail /> saiboy211@gmail.com<br/></i>
+          <i><IoIosPhonePortrait /> 0919-243188<br/></i>
+          <i><IoIosFlag /> taipei, taiwan</i>
         </div>
+        <br/>
       </div>
     )
   }

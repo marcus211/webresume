@@ -8,13 +8,13 @@ class SectionList extends React.Component {
         <div className="chapterName">工作經歷</div>
         <div className="container  text-center">
           <div className="row">
-            <div className="col-sm-4">
+            <div className="col-sm-3">
               <div style={{border:`none`, width:'100%', maxHeight:'100%', backgroundColor:`none`}} className="fade">
                 <PieChart/>
               </div>
             </div>
-            <div className="col-sm-8">
-              <ul class="timeline">
+            <div className="col-sm-9">
+              <ul className="timeline">
                 <div>career 03(2016 - present)</div>
                 <li>
                   <ol>

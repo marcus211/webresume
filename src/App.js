@@ -15,7 +15,7 @@ import './App.css';
 class AppActive extends Component {
   render() {
     const pageicon = {
-      size: '3em',
+      size: '2.5em',
       className: 'iconset'
     }
 

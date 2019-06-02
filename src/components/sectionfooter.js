@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFacebook, FaGithub, FaLine, FaLinkedinIn, FaPhoneSquare} from 'react-icons/fa';
 import { IoIosMail} from "react-icons/io";
 import { IconContext } from "react-icons";
+import MessageBoard from './Message/Message'
 
 class SectionFooter extends React.Component {
 
@@ -12,7 +13,8 @@ class SectionFooter extends React.Component {
     };
     return (
       <div>
-        <div className="chapterFooter">CONTACT</div>
+        <div id="footer" className="chapterFooter">CONTACT</div>
+        <MessageBoard />
         <IconContext.Provider value={footericon}>
           <a href={`https://www.facebook.com/`} target={`_blank`}>
             <FaFacebook />

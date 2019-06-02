@@ -10,7 +10,7 @@ class BlockNavbar extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark navbarfont">
           <div className="navbar-brand" >
             <Link
               activeClass="active"
@@ -81,6 +81,17 @@ class BlockNavbar extends React.Component {
                 duration={300}
               >
                 作品集
+              </Link>
+              <Link
+                className="nav-item nav-link ml-auto" 
+                activeClass="active"
+                to="footer"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={300}
+              >
+                與我聯絡
               </Link>
             </div>
           </div>

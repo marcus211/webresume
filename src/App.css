@@ -13,13 +13,19 @@
 }
 
 /*content css*/
+.navbarfont {
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
 .chapterName {
   color: white;
   background-color: #56ff1300;
   width: 100%;
   height: 120px;
   line-height:120px;  
-  font-size: 1.2em;
+  font-size: 2em;
   font-weight: 1000;
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;
@@ -31,7 +37,7 @@
   line-height:120px;
   color: silver;
   text-shadow: 0.1em -0.1em rgb(102, 102, 102);
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 1000;
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;
@@ -42,14 +48,14 @@
   height: 120px;
   line-height:120px;
   color: silver; 
-  font-size: 1.2em;
+  font-size: 2em;
   font-weight: 1000;
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;
 }
 .footercontent {
   color: silver; 
-  font-size: 0.8em;
+  font-size: 1.2em;
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;
 }
@@ -57,6 +63,7 @@
   color: white;
   margin:0 auto;
   width:90%;
+  font-size: 1.5em;
 }
 .title {
   color: white;
@@ -64,7 +71,7 @@
   width: 100%;
   height: 40px;
   line-height:40px; 
-  font-size: 1.1em;
+  font-size: 1.5em;
   font-weight: 500;
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;
@@ -73,22 +80,23 @@
 /*uparrow*/
 .uparrow {
   color:#8d8d8d;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   position: fixed;
-  font-size: 2.5em;
+  font-size: 3em;
   bottom: 20px;
   right: 20px;
   z-index: 2000;
   transition: all 200ms;
 }
 .uparrow.arrowmove {
-  right: -20px;
+  right: -200px;
 }
 .uparrow:hover {
   color: #ffffff;
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
-  transition: scale(1.1);
-  transform: scale(1.1); 
+  transition: scale(1.5);
+  transform: scale(1.5); 
 }
 .uparrow:active {
   color: #fbff00;
