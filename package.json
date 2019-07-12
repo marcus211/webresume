@@ -2,7 +2,7 @@
   "name": "webcv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marcus211.github.io/webcv",
+  "homepage": "https://marcus211.github.io/webresume",
   "dependencies": {
     "axios": "^0.18.1",
     "bootstrap": "^4.3.1",
@@ -11,6 +11,7 @@
     "d3-latest": "^5.0.4",
     "d3-scale": "^3.0.0",
     "firebase": "^6.3.0",
+    "gh-pages": "^2.0.1",
     "http-proxy-middleware": "^0.19.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
