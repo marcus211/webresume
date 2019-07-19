@@ -1,0 +1,14 @@
+/*block css*/
+.block_rectangle {
+    width: 200px;
+    height: 100px;
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(0, 255, 0);
+}
+
+.block_square {
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(255, 0, 0);
+}

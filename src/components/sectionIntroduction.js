@@ -1,19 +1,21 @@
 import React from 'react';
-import BlockHeadPhoto from "../components/blockheadphoto";
-import BlockMessage from "../components/blockmessage";
+import HeadPhoto from "../components/HeadPhoto/HeadPhoto";
+import IntroductionBox from "../components/IntroductionBox/IntroductionBox";
 
 class SectionIntroduction extends React.Component {
   render() {
     return (
-      <div id="Introduction" className="section_white">
-        <div className="chapterName">自我介紹</div>
+      <div id="Introduction" className="sectionBase">
+        <div className="chapterName">
+          Introduction
+        </div>
         <div className="container">
           <div className="row section_padding">
             <div className="col-sm-4">
-              <BlockHeadPhoto />
+              <HeadPhoto />
             </div>
             <div className="col-sm-8">
-              <BlockMessage />
+              <IntroductionBox />
             </div>
           </div>
         </div>

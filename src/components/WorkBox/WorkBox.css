@@ -1,0 +1,28 @@
+.workBox {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    min-height: 200px;
+    background-color: #799cff;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 30px 30px 30px 30px;
+}
+
+.workBoxSquare {
+    width: 100%;
+    padding: 50px 50px 50px 50px;
+}
+
+.workBoxCircle {
+    border: none;
+    border-color: #000000;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    transition: box-shadow 500ms;
+}
+
+.workBoxCircle:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+}

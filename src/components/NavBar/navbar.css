@@ -1,0 +1,18 @@
+/*nav area*/
+.toplogo {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+}
+
+.navbarfont {
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+/* 
+.navCustom {
+    background-color: rgb(0, 19, 45);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+} */

@@ -1,19 +1,14 @@
 import React from 'react';
-import PieChart from "../components/PieChart/PieChart";
+
 
 class SectionList extends React.Component {
   render() {
     return (
-      <div id="worklist" className="section_gray  background_setup bg-img-02">
-        <div className="chapterName">工作經歷</div>
+      <div id="worklist" className="background_setup bg-img-02">
+        <div className="chapterName">Experiences</div>
         <div className="container  text-center">
           <div className="row">
-            <div className="col-sm-3">
-              <div style={{border:`none`, width:'100%', maxHeight:'100%', backgroundColor:`none`}} className="fade">
-                <PieChart/>
-              </div>
-            </div>
-            <div className="col-sm-9">
+            <div className="col-sm-12">
               <ul className="timeline">
                 <div>career 03(2016 - present)</div>
                 <li>

@@ -1,24 +1,21 @@
 import React from "react";
-import BlockRectangle from '../components/blockA'
-import BarChart from "../components/BarChart/BarChart";
+import WorkBox from './WorkBox/WorkBox'
 
 class SectionMainWork extends React.Component {
   render() {
+    const inputWork = [
+      { text: 'Front-end Development', value: 73, content: 'HTML5, CSS3/SCSS, Javascript, React JS/React Native, Bootstrap, D3, JSON/AJAX' },
+      { text: 'Back-end Development', value: 65, content: 'Firebase, Python' },
+      { text: 'Development Tools/Other', value: 83, content: 'vscode, npm/yarn, git/github, PhotoCap 6.0, QGIS, pixlr editor (online free), PTGui' },
+    ];
     return (
-      <div id="mainwork" className="section_white">
-        <div className="chapterName">個人專長</div>
+      <div id="mainwork" className="sectionBase">
+        <div className="chapterName">Skills</div>
         <div className="container">
-          <div className="row">
-            <div className="col-sm-6">
-              <BlockRectangle />
-            </div>
-            <div className="col-sm-6">
-              <div style={{border:`none`, width:'100%', height:'100%', backgroundColor:`none`}}>
-                <BarChart/>
-              </div>
-            </div>
-          </div>
+          <WorkBox data={inputWork} />
         </div>
+        <br />
+        <br />
       </div>
     )
   }

@@ -1,0 +1,36 @@
+.spinLogo {
+    animation: autoSpinLogo infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@keyframes autoSpinLogo {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.textHead {
+    /*background-color: #56ff13;*/
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    color: #ffffff;
+    text-shadow: 0.1em -0.1em #666666;
+    font-size: 1.5em;
+    font-weight: 1000;
+    font-family: "Noto Sans TC", sans-serif;
+    text-align: center;
+}
+
+.head_background {
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
