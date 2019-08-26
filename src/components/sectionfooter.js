@@ -1,8 +1,9 @@
 import React from 'react';
-import { FaFacebook, FaGithub, FaLine, FaLinkedinIn, FaPhoneSquare} from 'react-icons/fa';
-import { IoIosMail} from "react-icons/io";
+import { FaFacebook, FaGithub, FaLine, FaLinkedinIn, FaPhoneSquare } from 'react-icons/fa';
+import { IoIosMail } from "react-icons/io";
 import { IconContext } from "react-icons";
 import MessageBoard from './Message/Message'
+import MapBox from './MapBox/MapBox'
 
 class SectionFooter extends React.Component {
 
@@ -14,6 +15,7 @@ class SectionFooter extends React.Component {
     return (
       <div>
         <div id="footer" className="chapterFooter">CONTACT</div>
+        <MapBox />
         <MessageBoard />
         <IconContext.Provider value={footericon}>
           <a href={`https://www.facebook.com/`} target={`_blank`}>
@@ -38,7 +40,7 @@ class SectionFooter extends React.Component {
         <div className='footercontent'>
           &copy; Copyright 2019 by marcus huang. All rights reserved.
         </div>
-      </div> 
+      </div>
     )
   }
 };
