@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLine, FaLinkedinIn, FaPhoneSquare } from 'react
 import { IoIosMail } from "react-icons/io";
 import { IconContext } from "react-icons";
 import MessageBoard from './Message/Message'
-import MapBox from './MapBox/MapBox'
+// import MapBox from './MapBox/MapBox'
 
 class SectionFooter extends React.Component {
 
@@ -15,7 +15,7 @@ class SectionFooter extends React.Component {
     return (
       <div>
         <div id="footer" className="chapterFooter">CONTACT</div>
-        <MapBox />
+        {/* <MapBox /> */}
         <MessageBoard />
         <IconContext.Provider value={footericon}>
           <a href={`https://www.facebook.com/`} target={`_blank`}>
