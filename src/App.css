@@ -4,8 +4,7 @@ body {
 }
 
 hr {
-  border: 3px solid rgb(60, 60, 60);
-  border-radius: 5px;
+  border: 1px solid rgb(60, 60, 60);
 }
 
 /*content title css*/
@@ -135,57 +134,4 @@ hr {
 .iconset:hover {
   color: #ffffff;
   transform: scale(1.2);
-}
-
-/*timeline setup*/
-/*https://bootsnipp.com/snippets/xrKXW*/
-ul.timeline {
-  list-style-type: none;
-  position: relative;
-}
-
-ul.timeline:before {
-  content: " ";
-  background: repeating-linear-gradient(90deg, #686868, #ffffff, #686868);
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  position: absolute;
-  left: 6px;
-  width: 12px;
-  height: 100%;
-  z-index: 50;
-}
-
-ul.timeline>li {
-  text-align: left;
-  margin: 20px 20px 20px 20px;
-  padding: 10px 10px 10px 10px;
-  background: linear-gradient(315deg, #6eff61, #ffffff);
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-}
-
-ul.timeline>li:before {
-  content: " ";
-  background: linear-gradient(135deg, #abc3fa, #002fff);
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
-  display: inline-block;
-  position: absolute;
-  border-radius: 50%;
-  border: 2px solid #ffffff;
-  z-index: 100;
-  left: 0px;
-  width: 24px;
-  height: 24px;
-}
-
-ul.timeline>div {
-  text-align: center;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul.timeline>li>ol {
-  list-style-type: square;
-  font-family: "Noto Sans TC", sans-serif;
 }

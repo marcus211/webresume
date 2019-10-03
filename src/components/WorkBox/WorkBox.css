@@ -3,16 +3,14 @@
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     width: 100%;
-    min-height: 300px;
     background-color: #799cff;
     text-align: center;
     font-size: 1.2em;
-    padding: 30px 30px 30px 30px;
+    padding: 20px 20px 20px 20px;
 }
 
 .workBoxSquare {
     width: 100%;
-    padding: 60px 60px 60px 60px;
 }
 
 .workBoxCircle {
@@ -21,8 +19,24 @@
     border-radius: 50%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     transition: box-shadow 500ms;
+    margin: 2em 2em 2em 2em;
 }
 
 .workBoxCircle:hover {
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
 }
+
+/* @media screen and (max-width: 960px) {
+    .workBoxSquare {
+        width: 100%;
+        padding: 10px 20px 20px 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .workBoxSquare {
+        width: 100%;
+        padding: 20px 80px 20px 80px;
+    }
+} */
+

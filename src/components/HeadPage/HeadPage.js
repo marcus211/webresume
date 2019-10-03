@@ -1,8 +1,8 @@
 import React from 'react';
-import { FaFacebook, FaGithub, FaLine, FaLinkedinIn, FaPhoneSquare } from 'react-icons/fa';
+import { FaDiceD20, FaFacebook, FaGithub, FaLine, FaLinkedinIn, FaPhoneSquare } from 'react-icons/fa';
 import { IoIosMail } from "react-icons/io";
 import { IconContext } from "react-icons";
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './HeadPage.css';
 
 class HeadPage extends React.Component {
@@ -12,8 +12,9 @@ class HeadPage extends React.Component {
       className: 'iconset'
     }
     return (
-      <div id="HomePage" className="section_headpage head_background bg-img-01">
-        <img src={logo} className="spinLogo " alt="logo" />
+      <div id="HomePage" className="section_headpage background_setup bg-img-01">
+        {/* <img src={logo} className="spinLogo " alt="logo" /> */}
+        <FaDiceD20 className="spinLogo " alt="logo"/>
         <div className='textHead'>
           Never give up on your dream!!
         </div>

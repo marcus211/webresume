@@ -2,6 +2,7 @@ import React from 'react';
 import './WorkBox.css';
 import 'react-circular-progressbar/dist/styles.css';
 //use in <span>{d.icon}</span>
+// eslint-disable-next-line
 import { FaHtml5, FaServer, FaTools  } from "react-icons/fa";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 //https://www.npmjs.com/package/react-circular-progressbar
