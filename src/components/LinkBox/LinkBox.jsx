@@ -10,14 +10,13 @@ import box005 from './work/005.png';
 import box006 from './work/006.png';
 
 const linkblock = [
-    { id: 1, weburl: "https://www.genesis-geo.com/", imgurl: box001 },
+    { id: 1, weburl: "https://geo-genesis.firebaseapp.com/", imgurl: box001 },
     { id: 2, weburl: "https://marcus211.github.io/webresume/index.html", imgurl: box002 },
     { id: 3, weburl: "https://marcus211.github.io/2019routedemo/index.html", imgurl: box003 },
     { id: 4, weburl: "https://webfindramen.firebaseapp.com", imgurl: box004 },
     { id: 5, weburl: "https://chrome.google.com/webstore/detail/fcjcpopamkkkfmibbicegepjaoepmjjh", imgurl: box005 },
-    { id: 6, weburl: "https://www.genesis-geo.com/vr_F5/index.html", imgurl: box006 },
+    { id: 6, weburl: "https://geo-genesis.firebaseapp.com/vr_F5/vrf5.html", imgurl: box006 },
 ];
-
 
 /*react-pose component*/
 /*start*/
