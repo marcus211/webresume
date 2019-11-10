@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/webresume/static/media/003.aadeac03.png"
   },
   {
-    "revision": "230ae6d75bfb8b2f8841",
-    "url": "/webresume/static/css/main.b800a3d5.chunk.css"
+    "revision": "8c6f6490c0d75b6795e8",
+    "url": "/webresume/static/css/main.189a8b2e.chunk.css"
   },
   {
     "revision": "5deef3db87250a61d513",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/webresume/static/media/background02.cb459ae5.jpg"
   },
   {
-    "revision": "87e2fcdf50325f5b273a",
+    "revision": "669471e23b1e9c60d4a4",
     "url": "/webresume/static/js/2.7bef8d5c.chunk.js"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/webresume/static/media/002.be0e0a60.png"
   },
   {
-    "revision": "230ae6d75bfb8b2f8841",
-    "url": "/webresume/static/js/main.11d943a0.chunk.js"
+    "revision": "8c6f6490c0d75b6795e8",
+    "url": "/webresume/static/js/main.7cc1fe86.chunk.js"
   },
   {
     "revision": "bbe174a34616e8c1223d3a130159d682",
@@ -60,11 +60,11 @@ self.__precacheManifest = [
     "url": "/webresume/static/media/background03.253948ed.jpg"
   },
   {
-    "revision": "87e2fcdf50325f5b273a",
-    "url": "/webresume/static/css/2.d7fc5fce.chunk.css"
+    "revision": "669471e23b1e9c60d4a4",
+    "url": "/webresume/static/css/2.51d77929.chunk.css"
   },
   {
-    "revision": "0e7a331afd6f62fe7cf1516bbb97c9c5",
+    "revision": "03edea31ffae79b230469877b560a309",
     "url": "/webresume/index.html"
   }
 ];

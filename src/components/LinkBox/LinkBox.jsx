@@ -8,6 +8,8 @@ import box003 from './work/003.png';
 import box004 from './work/004.png';
 import box005 from './work/005.png';
 import box006 from './work/006.png';
+import box007 from './work/007.png';
+import box008 from './work/008.png';
 
 const linkblock = [
     { id: 1, weburl: "https://geo-genesis.firebaseapp.com/", imgurl: box001 },
@@ -16,6 +18,8 @@ const linkblock = [
     { id: 4, weburl: "https://webfindramen.firebaseapp.com", imgurl: box004 },
     { id: 5, weburl: "https://chrome.google.com/webstore/detail/fcjcpopamkkkfmibbicegepjaoepmjjh", imgurl: box005 },
     { id: 6, weburl: "https://geo-genesis.firebaseapp.com/vr_F5/vrf5.html", imgurl: box006 },
+    { id: 7, weburl: "https://webgeomap.firebaseapp.com/", imgurl: box007 },
+    { id: 8, weburl: "https://chrome.google.com/webstore/detail/jlgohboikgmkehjaficdhekocmnohiph", imgurl: box008 },
 ];
 
 /*react-pose component*/
