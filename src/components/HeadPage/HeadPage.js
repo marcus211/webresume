@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaDiceD20, FaFacebook, FaGithub, FaLine, FaLinkedinIn, FaPhoneSquare } from 'react-icons/fa';
-import { IoIosMail } from "react-icons/io";
+import { FaDiceD20, FaGithub, FaLine, FaPhoneSquare } from 'react-icons/fa';
+import { IoIosPaper, IoIosMail } from "react-icons/io";
 import { IconContext } from "react-icons";
 // import logo from './logo.svg';
 import './HeadPage.css';
@@ -14,25 +14,22 @@ class HeadPage extends React.Component {
     return (
       <div id="HomePage" className="section_headpage background_setup bg-img-01">
         {/* <img src={logo} className="spinLogo " alt="logo" /> */}
-        <FaDiceD20 className="spinLogo " alt="logo"/>
+        <FaDiceD20 className="spinLogo " alt="logo" />
         <div className='textHead'>
           Never give up on your dream!!
         </div>
         <div>
           <IconContext.Provider value={pageicon}>
-            <a href={`https://www.facebook.com/`} target={`_blank`}>
-              <FaFacebook />
+            <a href={`https://www.cakeresume.com/me/chun-hsiang-huang`} target={`_blank`}>
+              <IoIosPaper />
             </a>
-            <a href={`https://github.com/`} target={`_blank`}>
+            <a href={`https://github.com/marcus211`} target={`_blank`}>
               <FaGithub />
-            </a>
-            <a href={`https://tw.linkedin.com/`} target={`_blank`}>
-              <FaLinkedinIn />
             </a>
             <a href={`mailto:saiboy211@gmail.com`} target={`_blank`}>
               <IoIosMail />
             </a>
-            <a href={`https://line.me/`} target={`_blank`}>
+            <a href={`https://line.me/ti/p/S4THzc7ns4`} target={`_blank`}>
               <FaLine />
             </a>
             <a href={`tel:0919243188`} target={`_blank`}>
