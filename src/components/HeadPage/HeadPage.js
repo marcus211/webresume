@@ -20,7 +20,7 @@ class HeadPage extends React.Component {
         </div>
         <div>
           <IconContext.Provider value={pageicon}>
-            <a href={`https://www.cakeresume.com/me/chun-hsiang-huang`} target={`_blank`}>
+            <a href={`https://www.cakeresume.com/chun-hsiang-huang`} target={`_blank`}>
               <IoIosPaper />
             </a>
             <a href={`https://github.com/marcus211`} target={`_blank`}>
