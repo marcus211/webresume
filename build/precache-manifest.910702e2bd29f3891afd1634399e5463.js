@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/webresume/static/media/004.bbe174a3.png"
   },
   {
-    "revision": "22ecf61974bb1f0a7204",
+    "revision": "4617ff265794526b40bb",
     "url": "/webresume/static/css/main.e894f529.chunk.css"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/webresume/static/media/003.aadeac03.png"
   },
   {
-    "revision": "22ecf61974bb1f0a7204",
-    "url": "/webresume/static/js/main.f850fbc9.chunk.js"
+    "revision": "4617ff265794526b40bb",
+    "url": "/webresume/static/js/main.5c814a68.chunk.js"
   },
   {
     "revision": "f12f8f957660a1a286f072fea5f30050",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/webresume/static/css/2.685ce753.chunk.css"
   },
   {
-    "revision": "ddda2944baab83d3732764363010d13b",
+    "revision": "7ee298dff42f7db68f9f8703f0a4d8f8",
     "url": "/webresume/index.html"
   }
 ];
